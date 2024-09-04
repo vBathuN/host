@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Automatic slider for blogger</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="slidesJS-frame" id="slidesJS-frame">
+<div class="slidesJS" id="slidesJS"></div>
+</div>
+<div style="clear:both;"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+var slidesJS_config = {
+url: 'https://feed.rtcs.live',
+numPost: 7,
+labelName: null,
+monthArray: [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"Aguste",
+"September",
+"October",
+"November",
+"December"
+],
+noImage: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAABHNCSVQICAgIfAhkiAAAAF96VFh0UmF3IHByb2ZpbGUgdHlwZSBBUFAxAAAImeNKT81LLcpMVigoyk/LzEnlUgADYxMuE0sTS6NEAwMDCwMIMDQwMDYEkkZAtjlUKNEABZiYm6UBoblZspkpiM8FAE+6FWgbLdiMAAAAK0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAPgxRSAABHLYB8AAAAABJRU5ErkJggg==',
+newTabLink: false,
+containerId: 'slidesJS',
+slider: {
+width: 400,
+height: 570,
+preload: true,
+preloadImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoA4Ieww4YwWd7Yjam_7oPw8B7KSqu7nrBgceD4mf__vIF0bkd8huzA0R5JiRFn-DpH0b73Iw4DlmhRh0NLGkfGdn-8cl-pHiYOaQs-DRLa6HnVxDGGs0MGCznlqdFMXMZP3FztpCsqydic-jB1Xo77llUoGi8UkhR6Ja9j3vnV2Xj-kwPczLU49oV/s320/anigif.gif",
+generateNextPrev: false,
+nextText: "",
+prevText: "",
+pagination: false,
+generatePagination: false,
+prependPagination: false,
+fadeSpeed: 350,
+fadeEasing: "",
+slideSpeed: 350,
+slideEasing: "",
+start: 1,
+effect: "slide",
+crossfade: false,
+randomize: false,
+play: 5000,
+pause: 0,
+hoverPause: true,
+bigTarget: false,
+animationStart: function(current) {
+$('.slidesJS-caption', '.' + this.container).slideUp(100);
+},
+animationComplete: function(current) {
+$('.slidesJS-caption', '.' + this.container).slideDown(200);
+},
+slidesLoaded: function() {
+$('.slidesJS-caption', '.' + this.container).slideDown(200);
+}
+}
+};
+</script>
+<script src="script.js"></script>
+<!-- partial -->
+  
+</body>
+</html>
