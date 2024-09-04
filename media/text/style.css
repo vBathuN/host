@@ -76,7 +76,7 @@ background-color:black;
 background-color:rgba(0,0,0,.5);
 font:bold normal 28px/1.33 cairo,Freesans,Sans-Serif;
 color:white;
-border-top:1px solid black;
+border-top:0px solid black;
 text-shadow:none;
 }
 .slidesJS-title a {
