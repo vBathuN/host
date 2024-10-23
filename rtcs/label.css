@@ -8,36 +8,3 @@
     font-size: 12px;
     font-weight: bold;
 }
-
-#overlayMsgs{
-	margin:0 auto;
-	background-color: #0000;
-	color: white;
-	font-family: Cousine, monospace;
-	font-size: 6vh;
-	line-height: 8vh;
-	letter-spacing: 0.0em;
-	text-shadow: 0.05em 0.05em 0px rgba(0,0,0,1);
-	width:100%;
-	height:100vh;
-	z-index: 7;
-	vertical-align: top;
-	text-align: center;
-	position: fixed;
-	overflow-wrap: anywhere;
-	padding:2% 3%;
-	pointer-events: none
-	overflow: auto!important;
-    display: flex!important;
-    flex-direction: column-reverse!important;
-    height: 120px!important;
-}
-#overlayMsgs span{
-	background-color: #000B;
-	padding: 2px;
-	margin: 0.5vh;
-	text-align: center;
-	width:100%;
-	pointer-events: none
-	text-align: left!important;
-}
