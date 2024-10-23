@@ -8,3 +8,11 @@
     font-size: 12px;
     font-weight: bold;
 }
+
+#overlayMsgs{
+    margin-bottom: 10%;
+    margin-left: 50%;
+    overflow: auto!important;
+    height: 120px!important;
+    width: 50%!important;
+}
