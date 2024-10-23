@@ -10,7 +10,6 @@
 }
 
 #overlayMsgs{
-    bottom: 10%;
 	margin:0 auto;
 	background-color: #0000;
 	color: white;
@@ -28,13 +27,17 @@
 	overflow-wrap: anywhere;
 	padding:2% 3%;
 	pointer-events: none
+	overflow: auto!important;
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    height: 120px!important;
 }
 #overlayMsgs span{
-    bottom: 10%;
 	background-color: #000B;
 	padding: 2px;
 	margin: 0.5vh;
 	text-align: center;
 	width:100%;
 	pointer-events: none
+	text-align: left!important;
 }
