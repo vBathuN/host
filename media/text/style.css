@@ -90,8 +90,6 @@ text-shadow:none;
 line-height: 1;
 color:white;
 text-decoration:none;
-    -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: #000000;
 }
 .slidesJS-title a:focus,
 .slidesJS-title a:hover {text-decoration:none;color:#fff000}
