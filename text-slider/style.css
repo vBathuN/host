@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Tamil039';
+    src: url('https://www.rtcs.live/font/Tamil039.woff2') format('woff2'),
+        url('https://www.rtcs.live/font/Tamil039.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+background: transparent;
+background: transparent;
+}
+.slidesJS-frame {
+width:800px;
+height:300px;
+text-align: center;
+background:transparent url('') no-repeat 50% 50%;
+margin:0 auto;
+}
+.slidesJS {
+background-color:transparent;
+position:relative;
+top:0px;
+left:0px;
+}
+.slidesJS-container {
+position:relative;
+overflow:hidden;
+display:none;
+}
+/* Next & Prev */
+.slidesJS-next,
+.slidesJS-prev {
+position:absolute;
+top:50%;
+left:-39px;
+width:24px;
+height:43px;
+margin-top:-21px;
+background:transparent url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4Y1eI2jlvdSP-fguGo_cLkqfFnQ6ggCR6RvnEGlCIGOC0lL5NG8B564H7gXR1kl1P46OEiHjloAoEZ9rl1x7ShCs8FSJvo8PEAZfXmS579skz8pqkvzbwOCPu5eo_xGLkSc-GMj7JH0Lo5lvWaUYVAAWaSKDUKy0PGgoP-hN6YV9nCDOjpbw4yxBP/s1600/slidesJS-arrow-prev.png') no-repeat 50% 50%;
+overflow:hidden;
+text-indent:-9999px;
+}
+.slidesJS-next {
+background-image:url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo7QW_pvh-dMJ5Z_c7aIIhOq3YpmSULrVGmufmQsOnc7-UrtZ6hxMcPrHTKhWQoOgYPCWlXXOaI1i-jrJR3l755yD4pGoiBqkbcaOeOcFljXG2_-Mxy0Mxm5qtlEfi1bDXlsWA49Id4QLRBg8AJtpGg1Ugb9aKAH1KXfTul4zxrks5QE-w92GUtTEP/s1600/slidesJS-arrow-next.png');
+right:-39px;
+left:auto;
+}
+/* Pagination */
+.slidesJS-pagination {
+list-style:none;
+margin:26px auto 0;
+padding:0;
+width:auto;
+text-align:center;
+}
+.slidesJS-pagination li {
+display:inline-block;
+*display:inline;
+margin:0 1px;
+padding:0;
+list-style:none;
+}
+.slidesJS-pagination a {
+display:block;
+width:12px;
+height:12px;
+background: transparent url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ56oOIvT3xC-rnv5mA2lvlUj9BByAUJXDL_IMJTqybR9h01OnzjTgTDdtvMKSMeZ3CIOxKECONkA8Op8P5P8pYnEMJUDuvABoJ7rqZUEej2NPs1mI1donqsBbrgI7D_kJ8rPm6E4djW7HyH4xCZwg_awEA0yVdwBZl3txMpsndoSH9d1Qt7EWzR_u/s1600/slidesJS-pagination.png') 50% 0;
+text-indent:-999px;
+overflow:hidden;
+}
+.slidesJS-pagination li.current a {background-position:0 -12px}
+/* Caption */
+.slidesJS-caption {
+display:none;
+position:absolute;
+right:0;
+bottom:0;
+left:0;
+z-index:500;
+padding:20px 20px 10px;
+background-color:black;
+background-color:rgba(0,0,0,.5);
+font:bold normal 28px/1.8 Tamil039;
+color:white;
+border-top:0px solid black;
+text-shadow:none;
+}
+.slidesJS-title a {
+line-height: 1.6;
+color:white;
+text-decoration:none;
+animation:blink 1.5s linear infinite alternate 1.5s;
+}
+.slidesJS-title a:focus,
+.slidesJS-title a:hover {text-decoration:none;color:#fff000}
+.slidesJS-meta:before {content:" - "}
+.slidesJS-meta-comment {display:none}
+/* Ribbon */
+.slidesJS-ribbon {
+display:block;
+/* display:none; <= Retire de (/* a 0;) para eliminar fita */
+width:112px;
+height:112px;
+position:absolute;
+top:-19px;
+left:-19px;
+z-index:500;
+background:transparent url('') no-repeat 0 0;
+/* Ribbon */
+.slidesJS-ribbon {
+display:block;
+/* display:none; <= Retire de (/* a 0;)para eliminar fita NEW) */
+width:112px;
+height:112px;
+position:absolute;
+top:-19px;
+left:-19px;
+z-index:500;
+background:transparent url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4DeaJrRmSo7YjXJANFsm0p0fuME7YwYGOVc6DrKz3IyXbm2fcB5Va_sdrfy4xjYPBgvAatXXdbvBUvOzyWzqPoFvzA4tVL0cl07CVNlt9l1iNcXTpNRO9FeQc2cjUS8gsholjBvjbkiaSR8f3mQY4EmcSnLAB8dj0vxs-OTPZvoBMK-DVDN_veaJn/s1600/slidesJS-ribbon.png') no-repeat 0 0;
+display:none;
+}
