@@ -16,6 +16,7 @@ body {
   font-size: 60px;
   font-weight: 900;
   color: #fff;
+  -webkit-text-stroke: 1.5px #c9a050;
   text-transform: none;
   animation: flip 2s infinite;
   animation-delay: calc(.1s * var(--i))
@@ -35,6 +36,7 @@ body {
   font-size: 60px;
   font-weight: 900;
   color: #2a366a;
+  -webkit-text-stroke: 1px red;
   letter-spacing: 4px;
   text-transform: none;
   animation: flip 2s infinite;
