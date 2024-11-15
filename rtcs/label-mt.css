@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 @font-face {
     font-family: 'Tamil039';
     src: url('https://www.rtcs.live/font/Tamil039.woff2') format('woff2'),
@@ -16,6 +17,8 @@
     box-shadow: 0px 0px 10px #00000059;
     important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal;
     word-spacing: -5px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;
 }
 
 #overlayMsgs{
