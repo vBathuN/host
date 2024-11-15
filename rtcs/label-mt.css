@@ -10,12 +10,12 @@
 .video-label {
     bottom: 5%;
     background: linear-gradient(to right, #870000 0%, red 5%, rgb(0 0 0 / 70%) 5%, rgb(0 0 0 / 70%) 100%);
-    padding: 5px 2.5% 1.8% 5%;
+    padding: 5px 2.5% 1% 6%;
     left: 0;
     border-top-right-radius: 20px;
     box-shadow: 0px 0px 10px #00000059;
     important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal;
-    letter-spacing: 2px;
+    word-spacing: -5px;
 }
 
 #overlayMsgs{
