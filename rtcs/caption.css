@@ -26,3 +26,15 @@
 .output span {
     background-color: #0000;
 }
+
+
+#overlayMsgs{
+    overflow: auto!important;
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    height: 240px!important;
+}
+
+#overlayMsgs span {
+    text-align: left!important;
+}
