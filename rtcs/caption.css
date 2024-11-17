@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Tamil039';
+    src: url('https://www.rtcs.live/font/Tamil039.woff2') format('woff2'),
+        url('https://www.rtcs.live/font/Tamil039.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.output {
+    width: 700px;
+    height: 200px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal;
+    text-align: center;
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.0em;
+    padding: 0em;
+    text-shadow: 0.05em 0.05em 0px rgb(0 0 0);
+}
+
+.output span {
+    background-color: #0000;
+}
