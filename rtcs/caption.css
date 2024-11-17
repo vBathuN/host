@@ -32,7 +32,7 @@
     overflow: auto!important;
     display: flex!important;
     flex-direction: column-reverse!important;
-    height: 240px!important;
+    height: 120px!important;
 }
 
 #overlayMsgs span {
