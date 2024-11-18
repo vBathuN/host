@@ -24,8 +24,8 @@
 	background-color: #0000;
 	color: white;
 	important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal;
-        font-size: 1em;
-	line-height: 1em;
+        font-size: 0.5vh;
+	line-height: 1vh;
 	letter-spacing: 0.0em;
 	text-shadow: 0.05em 0.05em 0px rgba(0,0,0,1);
 	width:100%;
