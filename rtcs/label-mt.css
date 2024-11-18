@@ -17,10 +17,3 @@
     important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal;
     word-spacing: -5px;
 }
-
-#overlayMsgs{
-    margin-bottom: 5%;
-    margin-left: 40%;
-    overflow: auto!important;
-    height: 120px!important;
-}
