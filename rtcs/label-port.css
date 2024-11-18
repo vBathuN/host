@@ -39,7 +39,7 @@
 
 
 #overlayMsgs{
-    overflow: hidden!important;
+    overflow: auto!important;
     display: flex!important;
     flex-direction: column-reverse!important;
     height: 120px!important;
