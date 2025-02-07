@@ -18,6 +18,12 @@
     word-spacing: -5px;
 }
 
+.video-label>span:nth-child(2) {
+    font-size: 70%;
+    display: block;
+    text-align: center;
+}
+
 #overlayMsgs{
         bottom: 15%;
 	margin:0 auto;
